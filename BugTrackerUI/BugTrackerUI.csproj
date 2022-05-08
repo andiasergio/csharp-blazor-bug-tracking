@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Pages\BugTrackerUI\NewBug.razor" />
+    <None Include="Pages\NewBug.razor" />
   </ItemGroup>
 
 </Project>
