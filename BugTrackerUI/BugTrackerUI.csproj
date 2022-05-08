@@ -8,4 +8,8 @@
     <Folder Include="Components\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="Pages\BugTrackerUI\NewBug.razor" />
+  </ItemGroup>
+
 </Project>
