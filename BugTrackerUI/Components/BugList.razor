@@ -9,6 +9,17 @@
             <th>Priority</th>
         </tr>
     </thead>
+    <tbody>
+        @foreach(var bug in Bugs)
+        {
+            <tr>
+                <th>@bug.Id</th>
+                <th>@bug.Title</th>
+                <th>@bug.Description</th>
+                <th>@bug.Priority</th>
+            </tr>
+        }
+    </tbody>
 </table>
 
 @code{
